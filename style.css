@@ -1,0 +1,29 @@
+
+body {
+  background-color: #f0f8ff;
+  transition: background 0.3s, color 0.3s;
+}
+.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+.dark-mode .table {
+  color: #eee;
+}
+h1, h3, h4 {
+  font-weight: bold;
+}
+canvas {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.dark-mode canvas {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+img {
+  max-height: 300px;
+  object-fit: cover;
+}
